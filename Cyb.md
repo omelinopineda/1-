@@ -6,16 +6,16 @@ requests.packages.urllib3.disable_warnings()
 #verifico se esiste il file EGBL.config
 def usage():
     print ""
-    print "######## Fortinet NSA checking tool ############"
-    print "# Author:   Fabio Natalucci                    #"
-    print "# Twitter: @fabionatalucci                     #"
-    print "# Website: https://www.fabionatalucci.it       #"
-    print "#                BIG THANKS TO...              #"
-    print "#            NSA and Equation Group            #"
-    print "#       and to Shadow Brokers for disclosure   #"
-    print "################################################"
+    
+    print "########## Fortinet NSA checking tool ################"
+    print "#          Author:    Omelino Pineda                 #"
+    print "#                                                    #"
+    print "# Website redirecting: https://www.fabionatalucci.it #"
+    print "#                                                    #"
+    print "#            NSA and Equation Group                  #"
+    print "#       and to Shadow Brokers for disclosure         #"
+    print "######################################################"
     print "USAGE: ./check_fortinet_ip -i IP"
-    print ""
     print ""
 
 def verifyConfig():
